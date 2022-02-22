@@ -1,0 +1,164 @@
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Download Buttons */
+.download-buttons {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-img {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 23%;
+}
+
+/* Features */
+
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.features-confluid {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.feature-img {
+  color: #ef8172;
+}
+
+.feature-img:hover {
+  color: #ff4c68;
+  margin-bottom: 1rem;
+}
+
+/* Testimonial */
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+  position: relative;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+  position: relative;
+}
+
+/* Media Query */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    width: 60%;
+    position: static;
+    transform: rotate(0deg);
+  }
+
+}
+
+/* CTA */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.fonth3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #fff;
+  padding: 0 200px 30px 200px;
+}
+
+/* Footer */
+
+#footer {
+background-color: #fff;
+text-align: center;
+padding: 5% 0;
+}
+
+.soc-icons {
+  padding: 0 5px;
+}
